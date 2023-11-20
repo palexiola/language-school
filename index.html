@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franch Language School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!---HEADER-->
+    <section class="header">
+        <nav class="nav">
+            <a href="index.html"><img src="img/logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="schowMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>FRENCH COURSE ONLINE</h1>
+            <p>The best Franch online course with the best franch teacher!</p>
+            <a href="#" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!--COURSE-->
+    <section class="course">
+        <h2>Our Courses</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Beginners</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat eum omnis ducimus maxime velit distinctio quisquam voluptatem quos nesciunt corrupti facere nulla debitis, tempore est explicabo illo quas veritatis eius.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat eum omnis ducimus maxime velit distinctio quisquam voluptatem quos nesciunt corrupti facere nulla debitis, tempore est explicabo illo quas veritatis eius.</p>
+            </div>
+            <div class="course-col">
+                <h3>Advanced</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat eum omnis ducimus maxime velit distinctio quisquam voluptatem quos nesciunt corrupti facere nulla debitis, tempore est explicabo illo quas veritatis eius.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--testimonials-->
+    <section class="testimonials">
+        <h2>What Our Student Says</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="img/user1.png" alt="userPhoto">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat at dolorum facilis eaque consequatur iure adipisci ut pariatur mollitia? Similique, suscipit est odit illum a nostrum consequuntur maiores dolorum aperiam.</p>
+                    <h3>Anna Sophia</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+                
+                <div class="testimonial-col">
+                    <img src="img/user2.png" alt="userPhoto2">
+                    <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat at dolorum facilis eaque consequatur iure adipisci ut pariatur mollitia? Similique, suscipit est odit illum a nostrum consequuntur maiores dolorum aperiam.</p>
+                        <h3>Lukas Martin</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+            
+        </div>
+    </section>
+
+    <!--CALL To Action-->
+    <section class="cta">
+        <h2>Enroll for our online courses</h2>
+        <a href="#" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere nihil minima, exercitationem molestiae maiores praesentium corrupti deserunt<br> saepe aliquid consequatur velit deleniti, minus illo cum mollitia! Vero iste consequuntur beatae?</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Olha Petryshak</p>
+    </footer>
+<!---------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function schowMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
