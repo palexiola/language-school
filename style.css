@@ -597,6 +597,12 @@ nav img {
 .sub-header h1{
     font-size: 24px;
 }
+    .layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+}
 
 }
 
