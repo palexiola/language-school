@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Learn French online with certified teachers. Courses available from beginner to advanced levels. Join now and start learning French today!">
+    <meta name="keywords" content="French courses, learn French, online French classes, French language school">
+    <meta name="author" content="Olha Petryshak">
+    
+    <title>Franch Language School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!---HEADER-->
+    <section class="sub-header">
+        <nav class="nav">
+            <a href="index.html"><img src="img/logo-removebg-preview.png" alt="french school"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="schowMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs For 2024</h1>
+    </section>
+
+    <!-- ----- BLOG page Content ----- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/sert.png" alt="French Certificates">
+                <h2>Our Certificates & Online Programs For 2024</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima amet, culpa delectus earum, tenetur molestias quasi quaerat quis nostrum modi explicabo, nisi ratione distinctio atque harum iusto. Harum, cum ducimus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda error, quasi quisquam dolore labore totam ducimus? At reiciendis iste soluta, eaque repudiandae porro. Numquam dolorum, voluptatem nisi earum provident laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda error, quasi quisquam dolore labore totam ducimus? At reiciendis iste soluta, eaque repudiandae porro. Numquam dolorum, voluptatem nisi earum provident laboriosam!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, facere aliquid. Ab reprehenderit beatae esse itaque tempora officiis pariatur, fugiat ea cumque quidem aliquam rem, ipsam repellat quae impedit. Corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere soluta, illum magni non molestias amet aliquid aspernatur nisi possimus eius cupiditate ipsa quasi repudiandae molestiae ratione earum minima a itaque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi error, exercitationem nulla maxime eum molestias quo inventore? Doloribus iusto at, harum quod dolor qui ut veniam blanditiis fugit ipsam necessitatibus!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam, in assumenda nulla, illo possimus dolorum velit voluptatum nemo numquam iure totam sit, perferendis at impedit consectetur maxime quas doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam, in assumenda nulla, illo possimus dolorum velit voluptatum nemo numquam iure totam sit, perferendis at impedit consectetur maxime quas doloremque.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form" action="">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn about-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+
+                <div>
+                    <span>French for Business</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>French for IELTS</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>University's French</span>
+                    <span>32</span>
+                </div>
+
+                <div>
+                    <span>Daily Communications</span>
+                    <span>30</span>
+                </div>
+
+                <div>
+                    <span>French for IT</span>
+                    <span>10</span>
+                </div>
+
+                <div>
+                    <span>French for Engineers</span>
+                    <span>42</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere nihil minima, exercitationem molestiae maiores praesentium corrupti deserunt<br> saepe aliquid consequatur velit deleniti, minus illo cum mollitia! Vero iste consequuntur beatae?</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Olha Petryshak</p>
+    </footer> <!-- end footer-->
+<!---------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function schowMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
